@@ -22,5 +22,3 @@ Install my-project with npm
 - DaisyUI
 
 ## Demo
-
-Insert gif or link to demo
