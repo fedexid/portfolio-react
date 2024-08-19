@@ -6,12 +6,11 @@ This is my personal website where I showcase things about me and my work created
 
 ## Installation
 
-Install my-project with npm
+Install my portfolio with npm
 
 ```bash
-  git clone
-  npm install portfolio-react
-  cd my-project
+  git clone https://github.com/niesdi/portfolio-react
+  npm install
 ```
 
 ## Technology I used
