@@ -6,7 +6,7 @@ This is my personal website where I showcase things about me and my work created
 
 ## Installation
 
-Install my portfolio with npm
+Install my website with npm
 
 ```bash
   git clone https://github.com/niesdi/portfolio-react
