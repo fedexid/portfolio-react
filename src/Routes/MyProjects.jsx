@@ -33,10 +33,19 @@ const Projects = [
   {
     id: 4,
     image: sertif_ss,
-    name: "Certificates",
+    name: "Certificate",
     description:
-      "These are all the Certifications from all the courses/training/programs/tests that I completed",
+      "This is a certificate in frontend engineering that I achieved",
     linkURL: Certificate,
+  },
+  {
+    id: 5,
+    image:
+      "https://github.com/niesdi/react-todolist/raw/main/src/assets/image.png",
+    name: "React Todo List",
+    description:
+      "This is a React Todo List with the uses of API for the task list",
+    linkURL: "https://github.com/niesdi/react-todolist",
   },
 ];
 
