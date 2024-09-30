@@ -55,7 +55,7 @@ const AboutMe = () => {
               <span>Linkedin</span>
             </a>
             <a
-              href="https://github.com/niesdi"
+              href="https://github.com/fedexid"
               className="btn w-32 bg-slate-900 text-secondary hover:-translate-y-2 hover:scale-110"
             >
               <img src={GitHub_logo} className="h-8 w-8" />

@@ -9,19 +9,19 @@ const Projects = [
   {
     id: 1,
     image:
-      "https://github.com/niesdi/html-css-js-todo-list/raw/main/assets/image.png",
+      "https://github.com/fedexid/html-css-js-todo-list/raw/main/assets/image.png",
     name: "Simple Todo List Web Application",
     description:
       "This is a Simple Todo List created using HTML, CSS, and Javascript",
-    linkURL: "https://github.com/niesdi/html-css-js-todo-list",
+    linkURL: "https://github.com/fedexid/html-css-js-todo-list",
   },
   {
     id: 2,
     image:
-      "https://github.com/niesdi/html-css-calculator/raw/main/images/calculator-screenshot.png",
+      "https://github.com/fedexid/html-css-calculator/raw/main/images/calculator-screenshot.png",
     name: "Calculator Web Design",
     description: "This is a simple HTML CSS Calculator Design",
-    linkURL: "https://github.com/niesdi/html-css-calculator",
+    linkURL: "https://github.com/fedexid/html-css-calculator",
   },
   {
     id: 3,
@@ -41,11 +41,11 @@ const Projects = [
   {
     id: 5,
     image:
-      "https://github.com/niesdi/react-todolist/raw/main/src/assets/image.png",
+      "https://github.com/fedexid/react-todolist/raw/main/src/assets/image.png",
     name: "React Todo List",
     description:
       "This is a React Todo List with the uses of API for the task list",
-    linkURL: "https://github.com/niesdi/react-todolist",
+    linkURL: "https://github.com/fedexid/react-todolist",
   },
 ];
 
