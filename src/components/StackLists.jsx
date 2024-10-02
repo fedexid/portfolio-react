@@ -4,8 +4,7 @@ import JS_logo from "../assets/JS_logo.svg";
 import React_logo from "../assets/react.svg";
 import TailwindCSS_logo from "../assets/TailwindCSS_logo.svg";
 import Git_logo from "../assets/Git_logo.svg";
-import Java_logo from "../assets/Java_logo.svg";
-import MySQL_logo from "../assets/MySQL_logo.svg";
+import Npm_logo from "../assets/npm.svg";
 
 const Lists = [
   {
@@ -40,13 +39,8 @@ const Lists = [
   },
   {
     id: 7,
-    logo: Java_logo,
-    alt: "java logo",
-  },
-  {
-    id: 8,
-    logo: MySQL_logo,
-    alt: "mysql logo",
+    logo: Npm_logo,
+    alt: "npm logo",
   },
 ];
 

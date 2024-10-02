@@ -5,7 +5,6 @@ import StackLists from "../components/StackLists";
 import Coding_storyset from "../assets/coding_storyset.svg";
 import GitHub_logo from "../assets/GitHub_logo.svg";
 import Linkedin_logo from "../assets/linkedin_logo.svg";
-import Gmail_logo from "../assets/gmail.svg";
 
 const AboutMe = () => {
   return (
@@ -31,7 +30,7 @@ const AboutMe = () => {
             Tools I've Used Before
           </h1>
           <div className="flex flex-grow items-center justify-center">
-            <ul className="mt-2 grid grid-cols-2 justify-items-center gap-2 text-lg lg:grid-cols-3 lg:gap-10">
+            <ul className="mt-2 grid grid-cols-2 justify-items-center gap-10 text-lg lg:grid-cols-3 lg:gap-10">
               <StackLists />
             </ul>
           </div>
