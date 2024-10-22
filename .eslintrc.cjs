@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  env: { browser: true, es2020: true },
+  env: { browser: true, node: true, es2020: true },
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
@@ -8,7 +8,7 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "prettier",
   ],
-  ignorePatterns: ["dist", ".eslintrc.cjs"],
+  ignorePatterns: ["dist", ".eslintrc.cjs", "NavbarDraft.jsx"],
   parserOptions: { ecmaVersion: "latest", sourceType: "module" },
   settings: { react: { version: "18.2" } },
   plugins: ["react-refresh"],
@@ -18,5 +18,7 @@ module.exports = {
       "warn",
       { allowConstantExport: true },
     ],
+    // This is used for children props
+    "react/prop-types": "off",
   },
 };

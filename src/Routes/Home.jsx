@@ -17,7 +17,7 @@ const Home = () => {
                 Greetings!
               </h1>
               <h2 className="my-2 text-xl lg:text-3xl">
-                I'm Husein. Welcome to my Personal Website
+                I&apos;m Husein. Welcome to my Personal Website
               </h2>
 
               <div className="mockup-code mx-auto mt-6 w-max bg-base-300 text-third transition ease-in-out hover:scale-110 lg:text-lg">

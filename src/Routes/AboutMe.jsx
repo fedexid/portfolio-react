@@ -14,20 +14,21 @@ const AboutMe = () => {
           <h1 className="text-xl font-bold text-secondary ease-in-out lg:text-4xl">
             About Me
           </h1>
+          {/* &apos; is used instead of ' to avoid bugs */}
           <p className="mx-auto mt-2 text-justify text-lg leading-loose text-slate-200 lg:w-3/4 lg:pt-4 lg:text-2xl">
-            I have a strong interest in technology. I'm a Fresh Graduate student
-            Majoring in Information Systems and love to learn new things to
-            improve my skills. I'm motivated to learn from various people. I'm
-            willing to work harder to achieve everything to improve myself. Back
-            in 2023, I had the opportunity to participate MSIB Program by
-            Kemendikbud in Frontend Engineering Bootcamp organized by Skill
-            Academy Ruangguru.
+            I have a strong interest in technology. I&apos;m a Fresh Graduate
+            student Majoring in Information Systems and love to learn new things
+            to improve my skills. I&apos;m motivated to learn from various
+            people. I&apos;m willing to work harder to achieve everything to
+            improve myself. Back in 2023, I had the opportunity to participate
+            MSIB Program by Kemendikbud in Frontend Engineering Bootcamp
+            organized by Skill Academy Ruangguru.
           </p>
         </section>
 
         <section className="flex h-screen max-h-full snap-start snap-always flex-col px-4 py-2 text-center text-primary shadow lg:max-w-full lg:text-balance lg:px-10">
           <h1 className="text-xl font-bold text-secondary sm:text-2xl lg:text-4xl">
-            Tools I've Used Before
+            Tools I&apos;ve Used Before
           </h1>
           <div className="flex flex-grow items-center justify-center">
             <ul className="mt-2 grid grid-cols-2 justify-items-center gap-10 text-lg lg:grid-cols-3 lg:gap-10">
