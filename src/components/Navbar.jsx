@@ -67,7 +67,7 @@ const Navbar = () => {
           <img
             src={mh_logo}
             alt="MH Logo"
-            className="h-12 min-h-10 w-12 min-w-14 object-contain transition ease-in-out hover:scale-110"
+            className="hidden h-12 min-h-10 w-12 min-w-14 object-contain transition ease-in-out hover:scale-110 lg:block"
           />
         </Link>
       </div>
