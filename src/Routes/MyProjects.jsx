@@ -9,6 +9,23 @@ const Projects = [
   {
     id: 1,
     image:
+      "https://github.com/fedexid/react-todolist/raw/main/src/assets/image.png",
+    name: "React Todo List",
+    description:
+      "This is a React Todo List with the uses of API for the task list",
+    linkURL: "https://github.com/fedexid/react-todolist",
+  },
+  {
+    id: 2,
+    image:
+      "https://github.com/fedexid/student-portal/raw/main/src/assets/LandingPage.png",
+    name: "Student Portal",
+    description: "This is a Student Portal App with JSON Server as the data",
+    linkURL: "https://github.com/fedexid/student-portal",
+  },
+  {
+    id: 3,
+    image:
       "https://github.com/fedexid/html-css-js-todo-list/raw/main/assets/image.png",
     name: "Simple Todo List Web Application",
     description:
@@ -16,7 +33,7 @@ const Projects = [
     linkURL: "https://github.com/fedexid/html-css-js-todo-list",
   },
   {
-    id: 2,
+    id: 4,
     image:
       "https://github.com/fedexid/html-css-calculator/raw/main/images/calculator-screenshot.png",
     name: "Calculator Web Design",
@@ -24,28 +41,19 @@ const Projects = [
     linkURL: "https://github.com/fedexid/html-css-calculator",
   },
   {
-    id: 3,
+    id: 5,
     image: uiux_portfolio,
     name: "UI/UX Portfolio",
     description: "This is my UI/UX Related Work",
     linkURL: uiux,
   },
   {
-    id: 4,
+    id: 6,
     image: sertif_ss,
     name: "Certificate",
     description:
       "This is a certificate in frontend engineering that I achieved",
     linkURL: Certificate,
-  },
-  {
-    id: 5,
-    image:
-      "https://github.com/fedexid/react-todolist/raw/main/src/assets/image.png",
-    name: "React Todo List",
-    description:
-      "This is a React Todo List with the uses of API for the task list",
-    linkURL: "https://github.com/fedexid/react-todolist",
   },
 ];
 
