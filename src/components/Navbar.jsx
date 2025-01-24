@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   const toogleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
+    setDropdownOpen((dropOpened) => !dropOpened);
   };
 
   return (

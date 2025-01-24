@@ -30,3 +30,5 @@ NavbarDraft.jsx
 build/
 .firebaserc
 firebase.json
+brainstorming/
+.vscode/

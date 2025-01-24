@@ -5,6 +5,8 @@ import sertif_ss from "../assets/FE.png";
 import uiux from "../assets/UIUX_Portfolio.pdf";
 import Certificate from "../assets/Certificate.pdf";
 
+import { motion } from "framer-motion";
+
 const Projects = [
   {
     id: 1,
@@ -60,7 +62,13 @@ const Projects = [
 const MyProjects = () => {
   return (
     <MainLayout>
-      <div className="grid gap-4 bg-main py-4 sm:grid-cols-2 lg:h-full lg:grid-cols-4 lg:overflow-auto">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5, ease: "easeInOut" }}
+        exit={{ opacity: 0, transition: { duration: 0.8, ease: "easeOut" } }}
+        className="grid gap-4 bg-main py-4 sm:grid-cols-2 lg:h-full lg:grid-cols-4 lg:overflow-auto"
+      >
         {Projects.map((project) => (
           <ProjectCards
             key={project.id}
@@ -70,7 +78,7 @@ const MyProjects = () => {
             linkURL={project.linkURL}
           />
         ))}
-      </div>
+      </motion.div>
     </MainLayout>
   );
 };
