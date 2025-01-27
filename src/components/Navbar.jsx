@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import mh_logo from "../assets/mh_logo.svg";
-import CVFile from "../assets/CV.pdf";
+import mh_logo from "../assets/images/mh_logo.svg";
+import CVFile from "../assets/pdfs/CV.pdf";
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(true);
 

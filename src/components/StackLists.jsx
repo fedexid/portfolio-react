@@ -1,10 +1,10 @@
-import HTML_logo from "../assets/HTML_logo.svg";
-import CSS_logo from "../assets/CSS_logo.svg";
-import JS_logo from "../assets/JS_logo.svg";
-import React_logo from "../assets/react.svg";
-import TailwindCSS_logo from "../assets/TailwindCSS_logo.svg";
-import Git_logo from "../assets/Git_logo.svg";
-import Npm_logo from "../assets/npm.svg";
+import HTML_logo from "../assets/images/HTML_logo.svg";
+import CSS_logo from "../assets/images/CSS_logo.svg";
+import JS_logo from "../assets/images/JS_logo.svg";
+import React_logo from "../assets/images/react.svg";
+import TailwindCSS_logo from "../assets/images/TailwindCSS_logo.svg";
+import Git_logo from "../assets/images/Git_logo.svg";
+import Npm_logo from "../assets/images/npm.svg";
 
 const Lists = [
   {

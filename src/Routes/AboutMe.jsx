@@ -2,9 +2,9 @@ import MainLayout from "../components/MainLayout";
 import StackLists from "../components/StackLists";
 
 // Third Section
-import Coding_storyset from "../assets/coding_storyset.svg";
-import GitHub_logo from "../assets/GitHub_logo.svg";
-import Linkedin_logo from "../assets/linkedin_logo.svg";
+import Coding_storyset from "../assets/images/coding_storyset.svg";
+import GitHub_logo from "../assets/images/GitHub_logo.svg";
+import Linkedin_logo from "../assets/images/linkedin_logo.svg";
 
 import { motion } from "framer-motion";
 

@@ -1,9 +1,9 @@
 import MainLayout from "../components/MainLayout";
 import ProjectCards from "../components/ProjectCards";
-import uiux_portfolio from "../assets/uiux_portfolio.png";
-import sertif_ss from "../assets/FE.png";
-import uiux from "../assets/UIUX_Portfolio.pdf";
-import Certificate from "../assets/Certificate.pdf";
+import uiux_portfolio from "../assets/images/uiux_portfolio.png";
+import sertif_ss from "../assets/images/FE.png";
+import uiux from "../assets/pdfs/UIUX_Portfolio.pdf";
+import Certificate from "../assets/pdfs/Certificate.pdf";
 
 import { motion } from "framer-motion";
 
