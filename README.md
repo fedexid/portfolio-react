@@ -19,6 +19,7 @@ Install my website with npm
 - React Router
 - Tailwind CSS
 - DaisyUI
+- Framer Motion
 
 ## Demo
 
