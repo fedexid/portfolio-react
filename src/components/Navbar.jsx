@@ -64,7 +64,11 @@ const Navbar = () => {
           )}
         </div>
 
-        <Link to="/" className="mx-2 inline-block">
+        <Link
+          aria-label="MH Logo (Website Logo)"
+          to="/"
+          className="mx-2 inline-block"
+        >
           <img
             src={mh_logo}
             alt="MH Logo"

@@ -3,6 +3,10 @@ import ProjectCards from "../components/ProjectCards";
 import uiux_portfolio from "../assets/images/uiux_portfolio.png";
 import sertif_ss from "../assets/images/FE.png";
 import uiux from "../assets/pdfs/UIUX_Portfolio.pdf";
+import ReactTodo from "../assets/images/ReactTodoLists.webp";
+import StudentPortal from "../assets/images/StudentPortal.webp";
+import HTMLTodoList from "../assets/images/TodoLists.webp";
+import CalculatorDesign from "../assets/images/CalculatorDesign.webp";
 import Certificate from "../assets/pdfs/Certificate.pdf";
 
 import { motion } from "framer-motion";
@@ -10,8 +14,7 @@ import { motion } from "framer-motion";
 const Projects = [
   {
     id: 1,
-    image:
-      "https://github.com/fedexid/react-todolist/raw/main/src/assets/image.png",
+    image: ReactTodo,
     name: "React Todo List",
     description:
       "This is a React Todo List with the uses of API for the task list",
@@ -19,16 +22,14 @@ const Projects = [
   },
   {
     id: 2,
-    image:
-      "https://github.com/fedexid/student-portal/raw/main/src/assets/LandingPage.png",
+    image: StudentPortal,
     name: "Student Portal",
     description: "This is a Student Portal App with JSON Server as the data",
     linkURL: "https://github.com/fedexid/student-portal",
   },
   {
     id: 3,
-    image:
-      "https://github.com/fedexid/html-css-js-todo-list/raw/main/assets/image.png",
+    image: HTMLTodoList,
     name: "Simple Todo List Web Application",
     description:
       "This is a Simple Todo List created using HTML, CSS, and Javascript",
@@ -36,8 +37,7 @@ const Projects = [
   },
   {
     id: 4,
-    image:
-      "https://github.com/fedexid/html-css-calculator/raw/main/images/calculator-screenshot.png",
+    image: CalculatorDesign,
     name: "Calculator Web Design",
     description: "This is a simple HTML CSS Calculator Design",
     linkURL: "https://github.com/fedexid/html-css-calculator",
