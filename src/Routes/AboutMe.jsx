@@ -119,7 +119,11 @@ const AboutMe = () => {
               href="https://www.linkedin.com/in/mhuseinn/"
               className="btn w-32 bg-slate-900 text-secondary hover:-translate-y-2 hover:scale-110"
             >
-              <img src={Linkedin_logo} className="h-8 w-8" />
+              <img
+                src={Linkedin_logo}
+                alt="LinkedIn Logo"
+                className="h-8 w-8"
+              />
               <span>Linkedin</span>
             </motion.a>
             <motion.a
@@ -135,7 +139,7 @@ const AboutMe = () => {
               href="https://github.com/fedexid"
               className="btn w-32 bg-slate-900 text-secondary hover:-translate-y-2 hover:scale-110"
             >
-              <img src={GitHub_logo} className="h-8 w-8" />
+              <img src={GitHub_logo} alt="Github Logo" className="h-8 w-8" />
               <span>Github</span>
             </motion.a>
           </div>
