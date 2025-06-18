@@ -21,6 +21,7 @@ const Navbar = () => {
           <div
             tabIndex={0}
             role="button"
+            aria-label="Dropdown Button"
             className={`btn border-none lg:hidden ${dropdownOpen ? "bg-[#205467]" : "bg-[#143440]"}`}
             onClick={toogleDropdown}
           >
@@ -103,6 +104,7 @@ const Navbar = () => {
       <div className="navbar-end">
         <button
           onClick={OpenCV}
+          aria-label="CV Button"
           className="btn btn-primary mx-5 bg-secondary px-8 font-bold transition ease-in-out hover:-translate-y-1 hover:scale-110"
         >
           <a target="_blank">My CV</a>

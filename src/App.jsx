@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./Routes/Home";
 import MyProjects from "./Routes/MyProjects";
@@ -7,6 +8,9 @@ import { AnimatePresence } from "framer-motion";
 
 const App = () => {
   const location = useLocation();
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", "dark");
+  }, []);
 
   return (
     <AnimatePresence mode="wait">
