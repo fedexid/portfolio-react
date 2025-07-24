@@ -2,7 +2,9 @@ import MainLayout from "../components/MainLayout";
 import ProjectCards from "../components/ProjectCards";
 import uiux_portfolio from "../assets/images/uiux_portfolio.png";
 import sertif_ss from "../assets/images/FE.png";
+import portfolio_cover from "../assets/images/portfolio_cover.png";
 import uiux from "../assets/pdfs/UIUX_Portfolio.pdf";
+import portfolio from "../assets/pdfs/Portfolio.pdf";
 import ReactTodo from "../assets/images/ReactTodoLists.webp";
 import StudentPortal from "../assets/images/StudentPortal.webp";
 import HTMLTodoList from "../assets/images/TodoLists.webp";
@@ -14,6 +16,13 @@ import { motion } from "framer-motion";
 const Projects = [
   {
     id: 1,
+    image: portfolio_cover,
+    name: "Portfolio",
+    description: "These are some of the projects that I've done",
+    linkURL: portfolio,
+  },
+  {
+    id: 2,
     image: ReactTodo,
     name: "React Todo List",
     description:
@@ -21,14 +30,14 @@ const Projects = [
     linkURL: "https://github.com/fedexid/react-todolist",
   },
   {
-    id: 2,
+    id: 3,
     image: StudentPortal,
     name: "Student Portal",
     description: "This is a Student Portal App with JSON Server as the data",
     linkURL: "https://github.com/fedexid/student-portal",
   },
   {
-    id: 3,
+    id: 4,
     image: HTMLTodoList,
     name: "Simple Todo List Web Application",
     description:
@@ -36,21 +45,21 @@ const Projects = [
     linkURL: "https://github.com/fedexid/html-css-js-todo-list",
   },
   {
-    id: 4,
+    id: 5,
     image: CalculatorDesign,
     name: "Calculator Web Design",
     description: "This is a simple HTML CSS Calculator Design",
     linkURL: "https://github.com/fedexid/html-css-calculator",
   },
   {
-    id: 5,
+    id: 6,
     image: uiux_portfolio,
     name: "UI/UX Portfolio",
     description: "This is my UI/UX Related Work",
     linkURL: uiux,
   },
   {
-    id: 6,
+    id: 7,
     image: sertif_ss,
     name: "Certificate",
     description:
