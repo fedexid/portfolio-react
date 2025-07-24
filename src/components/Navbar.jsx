@@ -1,22 +1,16 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import mh_logo from "../assets/images/mh_logo.svg";
-import CVFile from "../assets/pdfs/CV.pdf";
 const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(true);
-
-  const OpenCV = (e) => {
-    e.preventDefault();
-    window.open(CVFile);
-  };
 
   const toogleDropdown = () => {
     setDropdownOpen((dropOpened) => !dropOpened);
   };
 
   return (
-    <div className="navbar bg-main py-4">
-      <div className="navbar-start">
+    <div className="navbar relative bg-main py-4">
+      <div className="navbar-start lg:w-fit">
         <div className="dropdown">
           <div
             tabIndex={0}
@@ -67,7 +61,7 @@ const Navbar = () => {
         <Link
           aria-label="MH Logo (Website Logo)"
           to="/"
-          className="mx-2 inline-block"
+          className="z-10 mx-2 inline-block"
         >
           <img
             src={mh_logo}
@@ -77,7 +71,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="navbar-center hidden lg:flex">
+      <div className="navbar-center absolute left-0 hidden w-full lg:flex lg:grow lg:justify-center">
         <ul className="menu menu-horizontal gap-4 px-1 font-bold">
           <li>
             <Link
@@ -104,15 +98,6 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <button
-          onClick={OpenCV}
-          aria-label="CV Button"
-          className="btn btn-primary mx-5 bg-secondary px-8 font-bold transition ease-in-out hover:-translate-y-1 hover:scale-110"
-        >
-          <a target="_blank">My CV</a>
-        </button>
       </div>
     </div>
   );
